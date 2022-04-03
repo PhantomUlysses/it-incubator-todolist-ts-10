@@ -1,6 +1,6 @@
-import {FilterValuesType, TasksStateType, TodolistType} from '../App';
 import {v1} from 'uuid';
 import {AddTodolistActionType, RemoveTodolistActionType} from './todolists-reducer';
+import {TasksStateType} from "../AppWithReducers";
 
 export type RemoveTaskActionType = {
     type: 'REMOVE-TASK'
